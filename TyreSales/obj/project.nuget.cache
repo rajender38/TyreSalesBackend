@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gCPXfNFY33sAzzWmrXX+E4Q+IZlah7BK9d4E+N5XUrpaUuM5YvmRinNEHZ529mjEwSYKj1jvSzV/EV4DWrhiRw==",
+  "dgSpecHash": "cqdCMFjGHts+8z0PaVsj/aQtAso7IZcjSL6/esycnDPSsQ67VLIlNX6qwTHgxNtpeXCuMjx+qQdg0nrhcFnNtQ==",
   "success": true,
   "projectFilePath": "D:\\Learning\\NetCore\\TyreSales\\TyreSales\\TyreSales\\TyreSales.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajender\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

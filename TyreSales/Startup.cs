@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TyreSales.Interface;
+using TyreSales.Models;
+using TyreSales.Repository;
 
 namespace TyreSales
 {
@@ -26,6 +29,8 @@ namespace TyreSales
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IAssignSalesPerson, AssignSalesPerson>();
+            services.AddScoped<ISalesPerson, SalesPerson>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
