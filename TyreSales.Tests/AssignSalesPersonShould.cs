@@ -1,12 +1,8 @@
 using System;
 using Xunit;
-using TyreSales.Controllers;
 using Microsoft.Extensions.DependencyInjection;
 using TyreSales.Interface;
-using TyreSales.Repository;
-using System.Net.Http;
-using Newtonsoft.Json;
-using System.Text;
+
 
 namespace TyreSales.Tests
 {

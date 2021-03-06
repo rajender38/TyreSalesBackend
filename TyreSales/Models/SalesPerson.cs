@@ -12,7 +12,6 @@ namespace TyreSales.Models
         public List<SalesPerson> LoadSalesPerson()
         {
             string path = Path.Combine(Directory.GetCurrentDirectory() + "\\wwwroot\\salesperson.json");
-            //using (StreamReader r = new StreamReader("../TyreSales/wwwroot/salesperson.json"))
             using (StreamReader r = new StreamReader(path))
             {
                 string json = r.ReadToEnd();
