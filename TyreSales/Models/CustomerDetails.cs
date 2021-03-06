@@ -9,7 +9,7 @@ namespace TyreSales.Models
     {
         public string FristName { get; set; }
         public string LastName { get; set; }
-        public string language { get; set; }
-        public string carType { get; set; }
+        public string Language { get; set; }
+        public string CarType { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace TyreSales.Interface
 {
     public interface IAssignSalesPerson
     {
-        void CheckForSalesPerson(CustomerDetails customerDetails);
+        string CheckForSalesPerson(CustomerDetails customerDetails);
     }
 }
